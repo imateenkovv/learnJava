@@ -1,0 +1,57 @@
+Scanner - читает введенные значения
+Random - генерирует рандомные данные
+Math - модуль округление , степень корень
+
+Arrays - массивы, можно массив перевести в строку , скопировать , сравнить . сортировать и заполнить
+
+
+Типы данных в классах и Java:
+- примитивные:
+    - boolean
+    - char
+    - byte
+    - short
+    - int
+    - long
+    - float
+    - double
+- ссылочные:
+    - Все остальные , включая String и любые написанные классы
+
+    Классы-обертки
+    типа int и Integer
+    В них хранится больше полезных методов. Например перевести строку в int
+    int - приметив
+    Integer - обертка
+
+
+
+// Java ----------------
+public class Main {
+    public static void main(String[] args) {
+        int i;
+        String persik = "Персик ";
+        String spotty = "Спотти";
+        String privetKV = "Привет KV";
+
+        char[] privetVK = privetKV.toCharArray();
+
+
+
+        for(i=1; i<=100; i++){
+             if(i%3 == 0 && i%5 ==0){
+                System.out.println(persik + spotty);
+            privetVK[7]
+            }else if(i%5 == 0){
+                 System.out.println(spotty);
+            }else  if(i%3 == 0 ){
+                System.out.println(persik);
+            }else {
+                 System.out.println(i);
+            }
+
+        }
+
+    }
+}
+
